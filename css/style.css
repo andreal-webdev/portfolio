@@ -1,0 +1,106 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #1b1a1b;
+    color: #fff;
+}
+
+
+.nav-link{
+    color: #fff;
+    position: relative;
+}
+
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-60%);
+    background: linear-gradient(90deg, rgba(255, 192, 203, 0.747), rgba(200, 108, 218, 0.952));
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after{
+    width: 60%;
+    
+}
+
+.btn{
+    border: black;
+}
+
+.hero-section {
+    background-image: url('/assets/her0.png');
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100vh;
+}
+
+#hero {
+    padding: 0;
+}
+
+.hero-text{
+    margin-left: 150px;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card-size {
+    height: 600px;
+    background-color: transparent;
+}
+
+.card-img-size {
+    object-fit:contain;
+    height: 300px;
+    
+}
+
+.profile{
+    height: 170px;
+    margin-top: 25px;
+    background-color: #282828;
+    border-radius:20px ;
+}
+
+.profile-text{
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+
+.icon-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.icon {
+    margin: 10px;
+  
+    animation: slideInFromRight 13s ease-out infinite; 
+}
+
+@keyframes slideInFromRight {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+
+    100%{
+        transform: translate(-1000px, 0px);
+    }
+
+  }
