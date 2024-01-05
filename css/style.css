@@ -59,13 +59,19 @@ body{
 
 .card-size {
     height: 600px;
-    background-color: transparent;
+    background-color: #282828;
+    border-radius: 30px;
 }
 
 .card-img-size {
-    object-fit:contain;
+    object-fit:cover;
     height: 300px;
     
+    
+}
+.card-title{
+    color: #a1a1a1;
+    font-weight: 700;
 }
 
 .profile{
@@ -103,4 +109,23 @@ body{
         transform: translate(-1000px, 0px);
     }
 
-  }
+}
+.skills{
+    margin-bottom: 50px;
+}
+
+.resume{
+    padding: 30px;
+    background-color: #282828;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.resume:hover{
+    color: #a246bc;
+}
+
+.footer{
+    margin-top: 50px;
+}
