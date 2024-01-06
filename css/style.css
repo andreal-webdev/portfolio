@@ -4,6 +4,10 @@ body{
     color: #fff;
 }
 
+.btn:hover{
+    background-color: aqua;
+}
+
 
 .nav-link{
     color: #fff;
@@ -37,7 +41,7 @@ body{
 }
 
 .hero-section {
-    background-image: url('/assets/her0.png');
+    background-image: url('../assets/hero.png');
     background-size: contain;
     background-position: right center;
     background-repeat: no-repeat;
@@ -124,6 +128,20 @@ body{
 
 .resume:hover{
     color: #a246bc;
+}
+
+#projects{
+    margin: 100px auto;
+}
+
+.link{
+    color: #fff;
+    
+}
+
+.link:hover{
+    color: #a246bc;
+    
 }
 
 .footer{
