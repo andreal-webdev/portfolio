@@ -48,17 +48,40 @@ body{
     margin: 0;
     margin-bottom: 50px;
     height: 100vh;
+    animation: hero 1.8s ease-in-out;
+}
+
+@keyframes hero{
+    0%{
+        opacity: 0;
+       
+
+    }
+    100%{
+       opacity:100%;
+    }
+   
 }
 
 #hero {
     padding: 0;
+    
 }
+
 
 .hero-text{
     margin-left: 150px;
     background-color: #282828;
     padding: 20px;
     border-radius: 30px;
+    animation: h1 1.8s ease-in-out;
+}
+
+@keyframes h1{
+    0%{
+        margin: 10px 0 10px -800px;
+    }
+
 }
 
 .card-size {
@@ -96,15 +119,16 @@ body{
 .icon-container {
     display: flex;
     overflow: hidden;
+    
 }
 
 .icon {
-    margin: 10px;
+    align-items: center;
   
-    animation: slideInFromRight 13s ease-out infinite; 
+    /* animation: slideInFromRight 13s ease-out infinite;  */
 }
 
-@keyframes slideInFromRight {
+/* @keyframes slideInFromRight {
     0%{
         transform: translate(1400px, 0px);
     }
@@ -113,7 +137,7 @@ body{
         transform: translate(-1000px, 0px);
     }
 
-}
+} */
 .skills{
     margin-bottom: 50px;
 }
