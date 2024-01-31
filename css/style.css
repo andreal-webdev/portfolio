@@ -122,22 +122,7 @@ body{
     
 }
 
-.icon {
-    align-items: center;
-  
-    /* animation: slideInFromRight 13s ease-out infinite;  */
-}
 
-/* @keyframes slideInFromRight {
-    0%{
-        transform: translate(1400px, 0px);
-    }
-
-    100%{
-        transform: translate(-1000px, 0px);
-    }
-
-} */
 .skills{
     margin-bottom: 50px;
 }
