@@ -49,6 +49,7 @@ body{
     margin-bottom: 50px;
     height: 100vh;
     animation: hero 1.8s ease-in-out;
+    
 }
 
 @keyframes hero{
@@ -142,6 +143,10 @@ body{
     margin: 100px auto;
 }
 
+.icon:hover{
+    color: #a246bc
+}
+
 .link{
     color: #fff;
     
@@ -154,4 +159,51 @@ body{
 
 .footer{
     margin-top: 50px;
+}
+
+
+/* media quesries */
+@media (max-width: 576px) {
+    .hero-section {
+        text-align: center;
+        background-image: none; 
+    }
+    .hero-text {
+        margin: auto;
+    
+    }
+    .icon-container svg {
+        height: 30px;
+        width: 30px;
+    }
+  
+}
+
+/* For medium devices */
+@media (min-width: 576px) and (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        background-image: 30vh;
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-bottom: 10px;
+        
+    }
+    .hero-text {
+        margin: auto;
+    }
+    .icon-container svg {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* For large devices and above */
+@media (min-width: 768px) {
+    .hero-section {
+        text-align: left;
+    }
+   
 }
