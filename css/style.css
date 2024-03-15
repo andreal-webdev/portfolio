@@ -5,7 +5,7 @@ body{
 }
 
 .btn:hover{
-    background-color: aqua;
+    background-color: #77278d !important;
 }
 
 
@@ -36,11 +36,13 @@ body{
     
 }
 
+
 .btn{
     border: black;
 }
 
 .hero-section {
+
     background-image: url('../assets/hero.png');
     background-size: contain;
     background-position: right center;
@@ -72,7 +74,6 @@ body{
 
 .hero-text{
     margin-left: 150px;
-    background-color: #282828;
     padding: 20px;
     border-radius: 30px;
     animation: h1 1.8s ease-in-out;
@@ -85,9 +86,24 @@ body{
 
 }
 
+.img-thumbnail{
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.img-thumbnail:hover{
+    transform: scale(1.1);
+    
+   
+}
+
+
+
 .card-size {
     height: 600px;
-    background-color: #282828;
+    background-color: transparent;
     border-radius: 30px;
 }
 
@@ -104,12 +120,12 @@ body{
 .profile{
     height: 170px;
     margin-top: 25px;
-    background-color: #282828;
+   
     border-radius:20px ;
 }
 
 .profile-text{
-    background-color: #282828;
+   
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 40px;
@@ -127,24 +143,10 @@ body{
     margin-bottom: 50px;
 }
 
-.resume{
-    padding: 30px;
-    background-color: #282828;
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-}
 
-.resume:hover{
-    color: #a246bc;
-}
-
-#projects{
-    margin: 100px auto;
-}
 
 .icon:hover{
-    color: #a246bc
+    color: #daaae7 !important;
 }
 
 .link{
@@ -159,6 +161,7 @@ body{
 
 .footer{
     margin-top: 50px;
+    padding: 50px;
 }
 
 
@@ -176,6 +179,8 @@ body{
         height: 30px;
         width: 30px;
     }
+
+ 
   
 }
 
@@ -197,6 +202,9 @@ body{
     .icon-container svg {
         height: 60px;
         width: 60px;
+    }
+    .animation{
+        display: none;
     }
 }
 
