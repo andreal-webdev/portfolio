@@ -17,36 +17,14 @@
                     <img src="assets/logo-white.png" height="50" alt="">
                 </a>
                 
-              
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Me</a>
-                        </li>
-                       
-                    </ul>
-                </div>
             </div>
         </nav>
 
         <div class="container-fluid mb-5" >
-            <div class="jumbotron hero-weather p-5 d-flex align-items-center justify-content-left img-fluid ">
+            <div class="jumbotron hero-ballet p-5 d-flex align-items-center justify-content-left img-fluid ">
                 <div class="hero-text">
 
-                    <h1 class="display-4 mb-3 font-weight-bold">Weatherly</h1>
+                    <h1 class="display-4 mb-3 font-weight-bold">Toronto Ballet Studio</h1>
                     <a class="btn btn-primary btn-block btn" style="background-color: #a158a2; border: 0 !important;" href="https://balletstudio-9z7f.onrender.com" role="button">Live Demo</a>
                     <a class="btn btn-primary btn-block btn" style="background-color: #a158a2; border: 0 !important;" href="https://github.com/andreal-webdev/ballet" role="button">Git Repo</a>
                     
@@ -59,8 +37,8 @@
             <h2 class="display-7 mt-4">Project Goal</h2>
 
             <p>
-                The goal of this project was to create a weather app that can show users the current weather condition and the a 5-day weather forecast. 
-                However, I was able to display only 3 days because I’m using the free version of the API.Apart from this my goal was to learn and be familiarized with Vue.js.
+                This was a school project where we needed to develop a responsive website. We were free to choose the theme of the website. 
+                I choose to develop a ballet website because I used to do ballet when I was younger, and I have great memories of it
             </p>
 
             <h2 class="display-7 mt-4">Technology used:</h2>
@@ -70,9 +48,9 @@
                     <div class="row">
                         <div class="col">
                             <ul class="list">
-                                <li>Vue.js</li>
-                                <li>Tailwind</li>
-                                <li>Weather API</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
                             </ul>
                         </div>
                     
@@ -83,44 +61,41 @@
             <h2 class="display-7 mt-4">Ideation</h2>
 
             <p>
-                I started this project by creating a moodboard, selecting color palette, typography, creating a logo, and creating a wireframe in Figma of how I wanted the app to look like.
-                At this point I had no idea of how to use Vue.js, so I wanted to keep it very simple. The final result is a bit different but same it has the style.
+                I started by creating a mood board, selecting a colour palette, typography, and by selecting the images I was going to need. Then, I continue by exploring different ballet studio websites to know what information I should include. 
+                After this I decided I wanted to add the different packages of classes, an about page that gives a short bio of the couches, levels, and a contact page. 
+            </p>
+            <p> 
+                The images I used were taken from different royalty free sources, like Adobe stock, Pexels, and Pixabay. I created the logo using Adobe illustrator. I also sketched some possible low fidelity prototypes. 
             </p>
 
             
-            <img src="./assets/ideation-weather.JPG" width=" 800px" class="pb-2 img-fluid" height="auto"; alt="figma layout">
+            <img src="./assets/ideation-ballet.JPG" width=" 800px" class="pb-2 img-fluid" height="auto"; alt="figma layout">
             
             
 
             <h2 class="display-7 mt-4">Development</h2>
 
             <p>
-                For the development part I started by creating accounts in both APIs website Weatherapi and Mapbox. This way I will have the API keys and access token to fetch the data I needed.
-                The Weather API I used it for most of the data: current weather conditions, 3 days forecast, day, time, icons, and location autocomplete.
+                This project is mainly built using HTML, CSS, and Bootstrap. When I built this project, I only used media queries for the responsiveness. 
+                However, I’m working in updating this site by using Bootstrap. I like using Bootstrap over media queries because the code is a lot shorter, 
+                is faster to apply classes, and because I want to be more confident while using this framework.  
             </p>  
             <p> 
-                The Geocoding Mapbox API was used to detect the location of the user’s browser to show the current weather condition of that city. For this the user needs to give permission to the app to detect the location. 
-                After this users can search for a new location or their same location so a card with more details will be added in the app. Users can add as many locations as they want. According to the time of the day (morning or night) the background of the card will change the image.
+                I used flex boxes to display the prices of the classes, and a grid for the different levels that people can choose to go.
+                For the gallery section I used a jQuery carrousel, which automatically changes the images, but also users can click on the arrows to move from one image to the other. 
             </p>
-            <p>
-                In this cards users can see the current weather condition, the hourly weather conditions, a 5-day forecast (now 3-day forecast because of free API version), time and location, and they can also see more details of the current weather. 
-                If they want to delete a card they can just click in the trash bin icon and delete the card.
-                For the styling I used Tailwind. This is something new I learned in this project. I liked that it is easy to write the classes on the same line without having to write so much CSS or having to go to the CSS file. So I think is very convenient, you can adjust almost everything with it, 
-                and you can make your app responsive as well.
-            
-            </p>
+        
 
-            <img src="./assets/sample-weather.JPG"  width=" 800px" class="pb-2 img-fluid" alt="sample of 3d model">
-            <img src="./assets/weather-card.JPG"  width=" 800px" class="img-fluid" alt="sample of 3d model">
+            <img src="./assets/ballet-sample.JPG"  width=" 800px" class="pb-2 img-fluid" alt="sample of 3d model">
+            <img src="./assets/ballet-sample2.JPG"  width=" 800px" class="img-fluid" alt="sample of 3d model">
 
             <h2 class="display-7 mt-4">Reflection</h2>
 
             <p>
-                Completing this project was mostly fun. I enjoyed it. There were some struggles with not knowing the right classes for tailwind, and also how to write certain parts of the code in Vue.js. 
-                There is still a lot that I need to learn from both frameworks, but I think they are worth it to learn because the lines of code are a lot smaller and intuitive. Overall,
-                I happy with the outcome of this project. I was able to add everything I wanted. However, in the future I want to make more improvements like being able to click on each day and see the forecast for that specific day. 
-                Also, improve the sizing in the different devices, and I would like the backgrounds to change not only depending on the time of the day, 
-                but also depending on the weather conditions. Hopefully, I can makes this changes soon. I’m exited to continue learning, and imporving as a developer.
+                This was a project I created in my second semester, so I’m happy of what I accomplished because I was just starting to understand the different concepts, 
+                and I was very excited to learn more. My new goal for this project is to change completely use Bootstrap, and to give it a modern look. 
+                I want the contact section can send a message. Lastly, I still have the same desire of learning more and be really good at coding and designing websites. 
+                But I know I have to be patient and master the fundamentals first. The rest will come eventually.  
             </p>  
 
 

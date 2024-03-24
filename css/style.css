@@ -80,6 +80,32 @@ body{
     padding: 0;
     
 }
+.hero-ballet {
+
+    background-image: url('../assets/ballerina.jpg');
+    background-size: cover;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100vh;
+    animation: hero 1.8s ease-in-out;
+    padding: 0;
+    
+}
+.hero-pacman {
+
+    background-image: url('../assets/pacman-hero.png');
+    background-size: cover;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100vh;
+    animation: hero 1.8s ease-in-out;
+    padding: 0;
+    
+}
 
 @keyframes hero{
     0%{
@@ -226,7 +252,6 @@ body{
     }
     .hero-text {
         margin-left:5px;
-        
     }
     .icon-container svg {
         height: 60px;
@@ -238,7 +263,7 @@ body{
 }
 
 
-@media (min-width: 768px) and (max-width: 1670px) {
+@media (min-width: 768px) and (max-width: 940px) {
 
     .hero-section {
         text-align: center;
