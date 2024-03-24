@@ -49,8 +49,35 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     margin-bottom: 50px;
+    height: 90vh;
+    animation: hero 1.8s ease-in-out;
+    
+}
+
+.hero-space {
+
+    background-image: url('../assets/astro.jpeg');
+    background-size: cover;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 50px;
     height: 100vh;
     animation: hero 1.8s ease-in-out;
+    padding: 0;
+    
+}
+.hero-weather {
+
+    background-image: url('../assets/weather.png');
+    background-size: cover;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100vh;
+    animation: hero 1.8s ease-in-out;
+    padding: 0;
     
 }
 
@@ -169,7 +196,8 @@ body{
 @media (max-width: 576px) {
     .hero-section {
         text-align: center;
-        background-image: none; 
+        background-image: none;
+        height: 30vh;
     }
     .hero-text {
         margin: auto;
@@ -188,16 +216,17 @@ body{
 @media (min-width: 576px) and (max-width: 768px) {
     .hero-section {
         text-align: center;
-        background-image: 30vh;
-        background-size:contain;
-        background-position: center;
+        height: 30vh;
+        background-size: 300px;
+        background-position:right;
         background-repeat: no-repeat;
         margin: 0;
         margin-bottom: 10px;
         
     }
     .hero-text {
-        margin: auto;
+        margin-left:5px;
+        
     }
     .icon-container svg {
         height: 60px;
@@ -208,10 +237,22 @@ body{
     }
 }
 
-/* For large devices and above */
-@media (min-width: 768px) {
+
+@media (min-width: 768px) and (max-width: 1670px) {
+
     .hero-section {
-        text-align: left;
+        text-align: center;
+        height: 50vh;
+        background-size: 500px;
+        background-position:right;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-bottom: 10px;
+        
     }
-   
+    .hero-text {
+        margin-left:5px;
+        
+    }
+
 }
