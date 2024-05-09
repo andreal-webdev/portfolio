@@ -161,18 +161,6 @@ body{
     font-family: "Protest Riot", sans-serif;
 }
 
-.trail {
-    height: 30px;
-    width: 30px;
-    border-radius: 24px;
-    background-color: black;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 99999999;
-}
-
 
 
 .card-size {
